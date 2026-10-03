@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:18.2
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: spring7restmvc
+    ports:
+      - "5432:5432"
